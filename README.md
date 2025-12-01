@@ -1,142 +1,135 @@
-A simple real-time video call web application built using modern web tech — enabling two users to connect and video-chat seamlessly via browser.
-Live Demo: https://apnavideocall-frontend-uiyf.onrender.com/
+# Apna-Video-call 🎥
 
-🚀 Table of Contents
+A simple real-time video call web application built using modern web technologies.  
+**Live Demo:** https://apnavideocall-frontend-uiyf.onrender.com/
 
-Overview
+---
 
-Features
+## 🚀 Overview
 
-Tech Stack
+Apna-Video-call is a lightweight, real-time video calling app that uses WebRTC for peer-to-peer communication and an Express/Node.js signalling server. It is easy to deploy and ideal for demos, learning, or integrating into other projects.
 
-Project Structure
+---
 
-Installation & Local Setup
+## 🌟 Features
 
-Usage
+- Real-time video call between two users  
+- Browser-based — no installation required  
+- Clean React UI  
+- Node.js + Express signalling backend  
+- Deployed on Render  
+- Lightweight, minimal, and fast  
 
-Deployment / Live Demo
+---
 
-Limitations & Future Work
+## 🛠️ Tech Stack
 
-Contributing
+| Layer        | Technology |
+|-------------|------------|
+| Frontend    | React, JavaScript, HTML, CSS |
+| Backend     | Node.js, Express |
+| Real-Time   | WebRTC, WebSockets |
+| Deployment  | Render (Frontend + Backend) |
 
-Author & Contact
+---
 
-License
+## 📂 Project Structure
 
-🌟 Overview
+Apna-Video-call/
+│
+├── backend/ # Express signalling server
+│ ├── server.js
+│ ├── package.json
+│ └── ...other backend files
+│
+├── frontend/ # React client (UI + WebRTC logic)
+│ ├── src/
+│ ├── public/
+│ ├── package.json
+│ └── ...other frontend files
+│
+├── .gitignore
+└── README.md
 
-Apna-Video-call is a lightweight, real-time video calling app built using web technologies. It leverages WebRTC (or a similar mechanism) along with a signalling server to facilitate peer-to-peer video communication between users.
 
-The aim is to provide a minimal, easy-to-deploy video chat solution — ideal for learning, demos, or integration into larger projects.
+---
 
-✅ Features
+## 🧑‍💻 Installation & Local Setup
 
-Real-time video call between two users
-
-Browser-based — no installation needed beyond visiting the site
-
-Clean UI (frontend) + Node.js/Express backend for signalling
-
-Easily deployable (as done via Render)
-
-🛠️ Tech Stack
-Layer	Technology / Framework
-Frontend	React (JavaScript), HTML, CSS
-Backend	Node.js + Express
-Real-time	WebSockets / WebRTC (Signalling via Socket/HTTP)
-Deployment	Hosted on Render (Frontend + Backend)
-📂 Project Structure
-/
-├─ backend/        # Express backend (signalling server, API routes)
-├─ frontend/       # React frontend (UI & WebRTC logic)
-├─ .gitignore
-└─ README.md       # (this file)
-
-🧑‍💻 Installation & Local Setup
-
-If you want to run the project locally:
-
-Clone the repository
-
+### 1️⃣ Clone the repository  
+```bash
 git clone https://github.com/Nishtha16s/Apna-Video-call.git
 cd Apna-Video-call
 
-
-Install dependencies
-
-# Backend
+2️⃣ Install dependencies
+Backend
 cd backend
 npm install
 
-# Frontend
+Frontend
 cd ../frontend
 npm install
 
+3️⃣ Run the project
+Start backend
+cd backend
+npm start
 
-Run the application
-
-# Start backend
-cd ../backend
-npm run start       # or `node server.js` / as per your script
-
-# Start frontend
+Start frontend
 cd ../frontend
-npm run start       # or `npm start`
+npm start
 
+4️⃣ Open in browser
 
-Open the frontend in your browser (usually at http://localhost:3000) and start a video call.
+Frontend usually runs at:
+👉 http://localhost:3000/
 
 🎬 Usage
 
-Visit the frontend in the browser.
+Open the application in browser
 
-Enter or create a “room” (or unique identifier) to connect.
+Create or join a room
 
-Share the room link with another user.
+Share the room ID/link with another user
 
-Once both join, video call should start — enjoy!
-
+When both join, video call automatically starts 🎥
 
 🌐 Deployment / Live Demo
 
-This app is already deployed and live at:
+🔗 Live Link: https://apnavideocall-frontend-uiyf.onrender.com/
 
-https://apnavideocall-frontend-uiyf.onrender.com/
+Frontend + Backend both hosted on Render.
 
-Feel free to use or share the link.
+🔮 Future Enhancements
 
-❗ Limitations & Future Work
+Group video calls
 
-Currently supports one-to-one video calls; no group call.
+User authentication
 
-No user authentication — anyone with link can join room.
+Chat/Messaging
 
-No persistent history or chat/messages (just video).
+Screen sharing
 
-UI/UX can be improved: add waiting room, error handling, responsive design for mobile, etc.
+Mobile-responsive UI
 
-Optionally: add audio-only mode, screen sharing, chat, or peer-to-peer file sharing.
+Waiting room & call notifications
 
 🤝 Contributing
 
-Contributions are welcome! If you want to add features (group video, chat, UI improvements), feel free to:
+Contributions are welcome!
+Fork → Create branch → Commit → Pull Request.
 
-Fork the repo
+👤 Author
 
-Create a new branch (git checkout -b feature-xyz)
-
-Make your changes
-
-Open a Pull Request explaining your improvements
-
-Also, if you find bugs — please report them in “Issues”.
-
-👤 Author & Contact
-
-Nishtha Roy 
+Nishtha Roy
 
 GitHub: https://github.com/Nishtha16s
 
 Email: nishtharoy1234@gmail.com
+
+📄 License
+
+Open-source – use freely for learning or projects.
+
+
+---
