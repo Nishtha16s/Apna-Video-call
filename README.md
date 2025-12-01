@@ -35,21 +35,24 @@ Apna-Video-call is a lightweight, real-time video calling app that uses WebRTC f
 
 ## 📂 Project Structure
 
+```
 Apna-Video-call/
 │
-├── backend/ # Express signalling server
-│ ├── server.js
-│ ├── package.json
-│ └── ...other backend files
+├── backend/                 # Express signalling server
+│   ├── server.js
+│   ├── package.json
+│   └── ...other backend files
 │
-├── frontend/ # React client (UI + WebRTC logic)
-│ ├── src/
-│ ├── public/
-│ ├── package.json
-│ └── ...other frontend files
+├── frontend/                # React client (UI + WebRTC logic)
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── ...other frontend files
 │
 ├── .gitignore
 └── README.md
+```
+
 
 
 ---
